@@ -1,6 +1,6 @@
 # Helper Scripts
 
-This repository contains scripts to help keep our labs and repos organized.
+This repository contains scripts to help keep our labs and repos organized, as well as help with content creation.
 
 ## `rename.py`
 
@@ -30,3 +30,21 @@ python_labs
     ├── 18_05_names.py
     └── 18_06_tuple_sort.py
 ```
+
+## `replace_links.py`
+
+Replaces all occurences of Markdown links in `.md` files in the current repository with HTML links that open up in a new tab. If you create your content in a Markdown editor and you use normal MD links, run this script before adding your content to the platform.
+
+E.g.:
+
+```md
+[Example](http://www.example.com)
+```
+
+turns into:
+
+```html
+<a href="http://www.example.com" target="_blank">Example</a>
+```
+
+The rest of your content remains unchanged.
