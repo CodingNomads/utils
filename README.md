@@ -33,7 +33,7 @@ python_labs
 
 ## `replace_links.py`
 
-Replaces all occurences of Markdown links in `.md` files in the current repository with HTML links that open up in a new tab. If you create your content in a Markdown editor and you use normal MD links, run this script before adding your content to the platform.
+Replaces all occurences of Markdown links in `.md` files in the current folder with HTML links that open up in a new tab. If you create your content in a Markdown editor and you use normal MD links, run this script before adding your content to the platform.
 
 E.g.:
 
