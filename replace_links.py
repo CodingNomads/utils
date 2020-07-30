@@ -3,7 +3,17 @@ import re
 
 
 f_count, r_count = 0, 0
-p = re.compile(r'\[([^]]*)\]\(([^\s^\)]*)[\s\)]')
+p = re.compile(r'(?<!!)(\[([^\s\]]*)\]\(([^\s\)]*)\))')
+"""
+the regex matches all Markdown links of the form following form:
+    [Example](http://www.example.com)
+and replaces them with new-tab HTML links, e.g.:
+    <a href="http://www.example.com" target="_blank">Example</a>
+
+NOTE: it does **NOT** match Markdown image links, e.g.
+    ![Example](imgs/example.jpg)
+which is intentional and expected behavior
+"""
 
 def update_links(matchobj):
     """Creates a HTML link that opens in a new tab from an appropriate re.match() object."""
