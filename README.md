@@ -4,7 +4,7 @@ This repository contains scripts to help keep our labs and repos organized, as w
 
 ## `rename.py`
 
-Renames lab files by cahnging their first double-digit to the double-digit of their containing folder. Takes away some of the headache of moving labs between sections.
+Renames lab files by changing their first double-digit to the double-digit of their containing folder. Takes away some of the headache of moving labs between sections.
 
 **Possible result**:
 
@@ -33,7 +33,7 @@ python_labs
 
 ## `replace_links.py`
 
-Replaces all occurences of Markdown links in `.md` files in the current folder with HTML links that open up in a new tab. If you create your content in a Markdown editor and you use normal MD links, run this script before adding your content to the platform.
+Replaces all occurrences of Markdown links in `.md` files in the current folder with HTML links that open up in a new tab. If you create your content in a Markdown editor and you use normal MD links, run this script before adding your content to the platform.
 
 E.g.:
 
