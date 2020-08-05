@@ -60,3 +60,5 @@ If you execute the script inside of the top-level folder of your course content,
 ```
 
 It doesn't matter where it appears, but it needs to be part of your file for the script to pick it up, analyze the headings, and create the TOC.
+
+**Note:** The HTML comment does _not_ get removed and the script does _not_ check whether a TOC already exists. If you run it multiple times you will get multiple TOC. Therefore, I suggest to run the script _once_ at the _end_ of your content creation workflow before adding the content to the course on the learning platform.
