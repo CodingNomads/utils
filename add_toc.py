@@ -4,7 +4,7 @@ import md_toc
 
 
 # get all .md files in the current directory recursively
-md_files = pathlib.Path.cwd().glob('*.md')
+md_files = pathlib.Path.cwd().rglob('*.md')
 
 for file_ in md_files:
     with open(file_, 'r+') as f:
