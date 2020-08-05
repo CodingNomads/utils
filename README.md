@@ -48,3 +48,15 @@ turns into:
 ```
 
 The rest of your content remains unchanged.
+
+## `add_toc.py`
+
+This script allows you to add a clickable TOC to the top of your Markdown documents. It requires the external package called `md-toc`. You can install it via the included `Pipfile` or `requirements.txt`.
+
+If you execute the script inside of the top-level folder of your course content, it will add a linked TOC to the top of each file that contains the following **HTML comment**:
+
+```html
+<!--TOC-->
+```
+
+It doesn't matter where it appears, but it needs to be part of your file for the script to pick it up, analyze the headings, and create the TOC.
