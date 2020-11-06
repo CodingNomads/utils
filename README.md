@@ -1,3 +1,8 @@
+- [Helper Scripts](#helper-scripts)
+  - [`rename.py`](#renamepy)
+  - [`replace_links.py`](#replace_linkspy)
+  - [`add_toc.py`](#add_tocpy)
+  - [`add_html_toc.py`](#add_html_tocpy)
 # Helper Scripts
 
 This repository contains scripts to help keep our labs and repos organized, as well as help with content creation.
